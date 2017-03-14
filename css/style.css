@@ -1,0 +1,109 @@
+.caja{
+	background: yellow;
+	width: 33%;
+	height: 300px;
+}
+
+h1{
+	display: inline-block;
+}
+
+.base{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	border-radius: 200px;
+	/*border-radius: 20px 30px 0 20px;
+	Si le paso cuatro valores empieza por la esquina superior izquiera*/
+
+	font-size: 100px;
+	font-family: "trebuchet MS", Helvetica, sans-serif;
+
+	/*hereda todas las propiedades de elemento de bloque pero se comporta como elemento de linea*/
+}
+
+.linea{
+	background-color: lightgreen;
+	height: 100px;
+	width: 200px;
+	display: inline-block;
+}
+
+.cuadrado1{
+	background-color: blue;
+}
+
+.cuadrado2{
+	background-color: green;
+}
+
+.cuadrado3{	
+	background-color: red;
+}
+
+.cuadrado{
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+	display: inline-block;
+	margin: 40px 10px 22px 4px;
+	border: 20px solid red;
+	box-sizing: border-box;
+
+	/*Teoría de cajas*/
+
+	/*Border y padding se suman al tamano final del cuadrado
+	Para evitar tetner que restarle el padding al border de manera manual, existe una propiedad llamada :box-sizing: border-box;*/
+
+	/*
+	Margen del lado de afuera
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom:40px;
+	
+	or
+	margin: 40px 40px 40px 40px;
+	*/
+
+	/*
+	Padding es un margen pero del lado de adentro
+	Funciona igual que el margen. 
+	*/
+
+	/*
+	Border
+
+	*/
+
+
+
+}
+
+.cuadradox{
+	background: red;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+
+.relativo{
+	background-color: blue;
+	top: 20px;
+	left:50px;
+	position: relative;
+}
+
+.fijo{
+	background-color: pink;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+.absoluto{
+	background: black;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
